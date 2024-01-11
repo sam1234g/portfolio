@@ -4,9 +4,9 @@ import Image from "next/image";
 export default function About() {
 
   return (
-    <section className="bg-midnight text-cream border-green border-8 rounded-3xl w-full min-w-[340px] min-h-[400px] max-w-[1900px] flex flex-col my-10 lg:flex-row justify-center items-center py-10 px-8 lg:px-16 xl:px-36 2xl:px-64">
+    <section className="bg-midnight text-cream border-green border-8 rounded-3xl w-full min-w-[250px] min-h-[400px] max-w-[1100px] flex flex-col my-10 lg:flex-row lg:mx-20 xl:mx-40 justify-center items-center py-10 px-8 md-px-8 ms:px-8 ml:px-12 lg:px-16 xl:px-18 2xl:px-24 ">
     <div className="lg:w-full flex justify-start items-start">
-    <Image className="py-10"
+    <Image className="py-4 mb-2 lg:py-10 lg:mb-0 xl:py-10 xl:mb-0 2xl:py-10 2xl:mb-0"
       src="/assets/logo.png"
       width={300}
       height={300}

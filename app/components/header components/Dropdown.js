@@ -76,13 +76,13 @@ export default function Dropdown({pages}) {
         <Link href="/" className="ml-3 text-lg text-cream">
           About
         </Link>
-        <Link href="/projects" className="ml-3 text-lg text-cream ">
+        <Link href="/projects" className="ml-3 text text-cream ">
           Projects
         </Link>
-        <Link href="https://github.com/sam1234g" className="ml-3 text-cream">
+        <Link href="https://github.com/sam1234g" target="_blank" className="ml-3 text-cream ">
           <Image alt="github" src="/assets/github.png" width={30} height={30} />
         </Link>
-        <Link href="https://www.linkedin.com/in/samantha-german-241265289/" className="ml-3 text-cream">
+        <Link href="https://www.linkedin.com/in/samantha-german-241265289/" target="_blank" className="ml-3 text-cream">
         <Image alt="linkedin" src="/assets/linkedin.png" width={30} height={30} />
 
         </Link>
