@@ -17,7 +17,7 @@ export default function Footer() {
             {/* <div className="p-px bg-white dark:bg-black w-10/12 h-0 "></div> */}
             <div className="w-10/12 pb-5 pt-2 text-lg">
               <p>
-                &copy; Copyright {new Date().getFullYear()} Sam German
+                &copy; Copyright {new Date().getFullYear()} Samantha German
               </p>
             </div>
           </div>
