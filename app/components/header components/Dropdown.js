@@ -71,12 +71,12 @@ export default function Dropdown({pages}) {
           </ul>
         </div>)}
       </div>
-
+{/* desktop view menu - */}
       <div className="w-full hidden ms:flex items-center ">
-        <Link href="/" className="ml-3 text-cream">
+        <Link href="/" className="ml-3 text-lg text-cream">
           About
         </Link>
-        <Link href="/projects" className="ml-3 text-cream ">
+        <Link href="/projects" className="ml-3 text-lg text-cream ">
           Projects
         </Link>
         <Link href="https://github.com/sam1234g" className="ml-3 text-cream">
