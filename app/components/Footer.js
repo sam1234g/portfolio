@@ -8,14 +8,14 @@ export default function Footer() {
             
             
           </div> */}
-          <div className="flex flex-col items-center z-10  sm:items-end self-center pb-4">
+          {/* <div className="flex flex-col items-center z-10  sm:items-end self-center pb-4">
                  <div className="justify-self-end mt-3">
              <h1>footer</h1>
             </div>
-          </div>
+          </div> */}
           <div className="flex flex-wrap flex-col items-center z-10">
             {/* <div className="p-px bg-white dark:bg-black w-10/12 h-0 "></div> */}
-            <div className="w-10/12 pb-10 pt-2 text-lg">
+            <div className="w-10/12 pb-5 pt-2 text-lg">
               <p>
                 &copy; Copyright {new Date().getFullYear()} Sam German
               </p>
