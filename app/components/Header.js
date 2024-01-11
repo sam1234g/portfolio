@@ -16,7 +16,7 @@ export default function Header({pages}) {
         <h1></h1>
 <div className="flex justify-end items-center">
          
-<Button text={"Contact Sam"} location={"/contact"} />
+<Button text={"Contact Sam"} location={"mailto:sam_german@hotmail.co.uk"} />
         </div>
       </section>
     );
