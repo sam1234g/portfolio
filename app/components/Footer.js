@@ -10,7 +10,7 @@ export default function Footer() {
           </div> */}
           <div className="flex flex-col items-center z-10  sm:items-end self-center pb-4">
                  <div className="justify-self-end mt-3">
-              <Button text={"Contact Sam"} location={"/contact"} />
+             <h1>footer</h1>
             </div>
           </div>
           <div className="flex flex-wrap flex-col items-center z-10">
